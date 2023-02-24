@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/991bf8e234.js" crossorigin="anonymous"></script>
+    <title>CV</title>
+</head>
+<body>
+    <!-- HOME CON BARRA DE NAVEGACION -->
+    <div class="header-home">
+        <header>
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    
+                    <h2></h2>
+                </a>
+            
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li class="menu-item"><a href="cv.html#informacion">Acerca de mi</a></li>
+                    <li class="menu-item"><a href="cv.html#datos">Datos personales</a></li>
+                    <li class="menu-item"><a href="cv.html#contacto">contacto</a></li> 
+                    <li class="menu-item"><a href="cv.html#habilidades">Habilidades</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <div class="home-titulo">
+            <h1>Bruce Banner <br> científico</h1>
+            
+        </div>
+    </div>
+     
+
+    <!-- INFORMACION PERSONAL CV -->
+    <div class="section">
+        <div class="about-me"  id="informacion">
+            <h2>ACERCA DE MI</h2>
+            <div class="photo">
+                <img src="/img/Bruce.jpg" alt="">
+            </div>
+            <P>Soy un reconocido científico con siete doctorados y experiencia en el campo de la radiación gamma. <br> En la Universidad de Culver en Virginia, realizando un experimento durante la segunda guerra mundial, donde se pretendía crear super soldados, tuve un accidente y me vi atrapado en una exposición de radiación gamma que hace que me transforme en Hulk, hoy en día puedo controlar mi transformación y mis ataques de ira repentinos.</P>
+        </div>
+        <div class="datos-personales"  id="datos">
+            <h2>DATOS PERSONALES</h2>
+               <ul>
+                   <li><b> Nombre completo:</b>  Robert Bruce Banner</li>
+                   <li><b>Lugar de nacimiento: </b>EE.UU</li>
+                   <li><b>Estatura:</b>	1,88 m (6′ 2″) (como Bruce Banner), 3,00 m  (como Hulk)</li>
+                   <li> <b>Peso:</b> 76 kg (como Bruce Banner), 635 kg (como Hulk)</li>
+                   <li><b>Estado civil:</b>Casado</li>
+                   <li><b>Hijos:</b> Skaar, Hiro-Kala y She-Hulk (Lyra)</li>   
+               </ul>
+        </div>
+        <div class="habilidades" id="habilidades">
+            <h2>HABILIDADES</h2>
+                <ul>
+                    <li> <b>Velocidad:</b> Puedo ser más rapido que un avión, por ende terminar mis tareas antes que 
+                        cualquier persona normal. 
+                    </li>
+                    <li><b>Inmunidad a enfermar:</b> Soy inmune a todas las enfermedades, por lo que nunca me ausento de 
+                        mi puesto laboral.
+                    </li>
+                    <li><b>Adaptación:</b> Puedo adaptarme a cualquier entorno.
+                    </li>
+                </ul>     
+        </div>
+        <div class="contact"  id="contacto">
+            <div class="u-wrapper">
+               <div class="contact-content">
+        
+                  <form id="form" action="" class="form">
+                       <h3 class="tag"><span>HABLEMOS</span></h3>
+                       <label for="name">Nombre Completo <span>*</span></label>
+                       <input name="name" required type="text" id="name" placeholder="Juan">
+                       <label for="email">Correo electrónico <span>*</span></label>
+                       <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                       <label for="message">Mensaje</label>
+                       <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                       <button class="btn" onclick="mialerta();"> Enviar mensaje</button> 
+                    
+                  </form>
+                
+              </div>
+            </div>
+        </div> 
+    </div>
+    
+        
+    <!-- FOOTER CONTACTO  -->
+    <footer class="pie-pagina">
+        <div class="group">
+              <div class="box">
+                 <figure>
+                     <a href="#"><img src="img/banner logo.png" alt="Bruce Banner"></a>
+                 </figure>
+              </div>
+              <div class="box">
+                  <h3>REDES SOCIALES</h3>
+                  <div class="red-social">
+                      <a href="#" class="fa fa-whatsapp" ></a>
+                      <a href="#" class="fa fa-envelope"></a>
+                      <a href="#" class="fa fa-linkedin"></a>
+                      
+                  </div>
+               </div>
+        </div>       
+    <script src="/JS/cv.js"></script>
+</body>
+</html>
